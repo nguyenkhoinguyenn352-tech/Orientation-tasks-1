@@ -1,0 +1,11 @@
+Task 1
+
+Simulation of a Supermarket
+
+A supermarket is a good example of a situation that can be analyzed using simulation. Customers arrive at different times and spend different amounts of time shopping and waiting at the checkout.
+
+Simulation is suitable because it allows us to study the system without affecting real customers. It is also cheaper and easier than testing different situations in a real supermarket.
+
+For example, a simulation can be used to find the best number of checkout counters and reduce customer waiting times.
+
+Some sustainability aspects can also be included in the simulation. These include reducing energy consumption, reducing paper waste from receipts, and using employees more efficiently. This helps save resources and makes the supermarket more sustainable.
