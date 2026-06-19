@@ -1,0 +1,53 @@
+public class OrientationTask1_3 {
+
+    static class Customer {
+
+        private static int nextId = 1;
+
+        private int id;
+        private long startTime;
+        private long endTime;
+
+        public Customer(long startTime, long endTime) {
+            this.id = nextId++;
+            this.startTime = startTime;
+            this.endTime = endTime;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public long getStartTime() {
+            return startTime;
+        }
+
+        public void setStartTime(long startTime) {
+            this.startTime = startTime;
+        }
+
+        public long getEndTime() {
+            return endTime;
+        }
+
+        public void setEndTime(long endTime) {
+            this.endTime = endTime;
+        }
+
+        public long getTimeSpent() {
+            return endTime - startTime;
+        }
+    }
+
+    public static void main(String[] args) {
+
+        Customer c1 = new Customer(1000, 5000);
+        Customer c2 = new Customer(2000, 7000);
+
+        System.out.println("Customer ID: " + c1.getId());
+        System.out.println("Time spent: " + c1.getTimeSpent());
+
+        System.out.println("Customer ID: " + c2.getId());
+        System.out.println("Time spent: " + c2.getTimeSpent());
+    }
+}
