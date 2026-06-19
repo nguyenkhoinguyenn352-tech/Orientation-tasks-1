@@ -1,0 +1,13 @@
+Task 2
+
+Operational System: Bank
+
+A bank is an example of an operational system.
+
+Variability: Customers arrive at different times and need different services, such as deposits, withdrawals, or loans.
+
+Complexity: A bank has many parts, including customers, employees, service counters, and computer systems.
+
+Interconnectedness: All parts of the bank work together. Employees use computer systems to serve customers, and problems in one part can affect the whole system.
+
+Therefore, a bank is a good example of a system that has variability, complexity, and interconnectedness.
